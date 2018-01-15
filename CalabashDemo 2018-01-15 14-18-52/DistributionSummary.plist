@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CalabashDemo.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>07DB1BF2B8E783E437C35FF324C1199ACB48B4B6</string>
+				<key>dateExpires</key>
+				<string>20/06/2018</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>ZHDZB47VKB.Futuredial.CalabashDemo</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>ZHDZB47VKB</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>ZHDZB47VKB.Futuredial.CalabashDemo</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>CalabashDemo.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>4a291676-444f-46aa-a46a-d0b11207d0f8</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: Futuredial.CalabashDemo</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>ZHDZB47VKB</string>
+				<key>name</key>
+				<string>FutureDial, Inc.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,13 +7,16 @@ PODS:
   - AppCenter/Core (1.2.0)
   - AppCenter/Crashes (1.2.0):
     - AppCenter/Core
+  - Calabash (0.21.4)
 
 DEPENDENCIES:
   - AppCenter
+  - Calabash (~> 0.21.4)
 
 SPEC CHECKSUMS:
   AppCenter: d0b68b2a7a87ac0aed78e66f36d87fd321d0a29c
+  Calabash: c65426328479bd1b2859a072680a7eec1061a35d
 
-PODFILE CHECKSUM: 496dafa1bb94cce1f87e2d9e3c3e5d498939c37a
+PODFILE CHECKSUM: 4161deb81f0bd9e8c7a29d218850f028c6211962
 
 COCOAPODS: 1.4.0.beta.2

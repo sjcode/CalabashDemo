@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		38943D0283D95BC816FF69E7 /* libPods-CalabashDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AA8AEB3821ECDE00A83320 /* libPods-CalabashDemo.a */; };
+		87ADFBA65EEF9ACCC74936FE /* libPods-CalabashDemo-cal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C72C2A9361647ECA986F30F8 /* libPods-CalabashDemo-cal.a */; };
 		AA2EB460200C4B3300B3A93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB45F200C4B3300B3A93E /* AppDelegate.m */; };
 		AA2EB463200C4B3300B3A93E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB462200C4B3300B3A93E /* ViewController.m */; };
 		AA2EB466200C4B3300B3A93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2EB464200C4B3300B3A93E /* Main.storyboard */; };
@@ -18,6 +19,16 @@
 		AA2EB479200C4FAD00B3A93E /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB478200C4FAD00B3A93E /* UIColor+Random.m */; };
 		AA2EB47E200C79E000B3A93E /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB47D200C79E000B3A93E /* Foo.m */; };
 		AA2EB486200C7A6200B3A93E /* CalabashDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB485200C7A6200B3A93E /* CalabashDemoTests.m */; };
+		AA2EB4A6200C889600B3A93E /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB47D200C79E000B3A93E /* Foo.m */; };
+		AA2EB4A7200C889600B3A93E /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB478200C4FAD00B3A93E /* UIColor+Random.m */; };
+		AA2EB4A8200C889600B3A93E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB462200C4B3300B3A93E /* ViewController.m */; };
+		AA2EB4A9200C889600B3A93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB46D200C4B3400B3A93E /* main.m */; };
+		AA2EB4AA200C889600B3A93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB45F200C4B3300B3A93E /* AppDelegate.m */; };
+		AA2EB4AB200C889600B3A93E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB475200C4D7700B3A93E /* DetailViewController.m */; };
+		AA2EB4AF200C889600B3A93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2EB469200C4B3300B3A93E /* LaunchScreen.storyboard */; };
+		AA2EB4B0200C889600B3A93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2EB467200C4B3300B3A93E /* Assets.xcassets */; };
+		AA2EB4B1200C889600B3A93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2EB464200C4B3300B3A93E /* Main.storyboard */; };
+		CADA044A7E09CA683ABEA5F5 /* libPods-CalabashDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2EB4BA200C90E000B3A93E /* libPods-CalabashDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +44,7 @@
 /* Begin PBXFileReference section */
 		0468DD7D7C1F9BFCFE68C354 /* Pods-CalabashDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalabashDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalabashDemo/Pods-CalabashDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		28F8A7CF965806E9E2BC22AD /* Pods-CalabashDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalabashDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalabashDemo/Pods-CalabashDemo.release.xcconfig"; sourceTree = "<group>"; };
+		59F09A9D528CD55B7A0911E5 /* Pods-CalabashDemo-cal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalabashDemo-cal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalabashDemo-cal/Pods-CalabashDemo-cal.debug.xcconfig"; sourceTree = "<group>"; };
 		AA2EB45B200C4B3300B3A93E /* CalabashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalabashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2EB45E200C4B3300B3A93E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA2EB45F200C4B3300B3A93E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +64,11 @@
 		AA2EB483200C7A6200B3A93E /* CalabashDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalabashDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2EB485200C7A6200B3A93E /* CalabashDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalabashDemoTests.m; sourceTree = "<group>"; };
 		AA2EB487200C7A6200B3A93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2EB4A2200C882D00B3A93E /* CalabashDemo-cal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CalabashDemo-cal.plist"; path = "/Users/sujian/Desktop/Practice/CalabashDemo/CalabashDemo/CalabashDemo-cal.plist"; sourceTree = "<absolute>"; };
+		AA2EB4B7200C889600B3A93E /* CalabashDemo-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalabashDemo-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2EB4BA200C90E000B3A93E /* libPods-CalabashDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-CalabashDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFF1194D1D74315C647D2A4 /* Pods-CalabashDemo-cal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalabashDemo-cal.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalabashDemo-cal/Pods-CalabashDemo-cal.release.xcconfig"; sourceTree = "<group>"; };
+		C72C2A9361647ECA986F30F8 /* libPods-CalabashDemo-cal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalabashDemo-cal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AA8AEB3821ECDE00A83320 /* libPods-CalabashDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalabashDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38943D0283D95BC816FF69E7 /* libPods-CalabashDemo.a in Frameworks */,
+				CADA044A7E09CA683ABEA5F5 /* libPods-CalabashDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2EB4AC200C889600B3A93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87ADFBA65EEF9ACCC74936FE /* libPods-CalabashDemo-cal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +105,8 @@
 			children = (
 				0468DD7D7C1F9BFCFE68C354 /* Pods-CalabashDemo.debug.xcconfig */,
 				28F8A7CF965806E9E2BC22AD /* Pods-CalabashDemo.release.xcconfig */,
+				59F09A9D528CD55B7A0911E5 /* Pods-CalabashDemo-cal.debug.xcconfig */,
+				AAFF1194D1D74315C647D2A4 /* Pods-CalabashDemo-cal.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -99,6 +127,7 @@
 			children = (
 				AA2EB45B200C4B3300B3A93E /* CalabashDemo.app */,
 				AA2EB483200C7A6200B3A93E /* CalabashDemoTests.xctest */,
+				AA2EB4B7200C889600B3A93E /* CalabashDemo-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +143,7 @@
 				AA2EB467200C4B3300B3A93E /* Assets.xcassets */,
 				AA2EB469200C4B3300B3A93E /* LaunchScreen.storyboard */,
 				AA2EB46C200C4B3400B3A93E /* Info.plist */,
+				AA2EB4A2200C882D00B3A93E /* CalabashDemo-cal.plist */,
 				AA2EB46D200C4B3400B3A93E /* main.m */,
 				AA2EB474200C4D7700B3A93E /* DetailViewController.h */,
 				AA2EB475200C4D7700B3A93E /* DetailViewController.m */,
@@ -137,7 +167,9 @@
 		E9F588092560B293684F353B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA2EB4BA200C90E000B3A93E /* libPods-CalabashDemo.a */,
 				D4AA8AEB3821ECDE00A83320 /* libPods-CalabashDemo.a */,
+				C72C2A9361647ECA986F30F8 /* libPods-CalabashDemo-cal.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,6 +215,26 @@
 			productReference = AA2EB483200C7A6200B3A93E /* CalabashDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AA2EB4A3200C889600B3A93E /* CalabashDemo-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2EB4B4200C889600B3A93E /* Build configuration list for PBXNativeTarget "CalabashDemo-cal" */;
+			buildPhases = (
+				AA2EB4A4200C889600B3A93E /* [CP] Check Pods Manifest.lock */,
+				AA2EB4A5200C889600B3A93E /* Sources */,
+				AA2EB4AC200C889600B3A93E /* Frameworks */,
+				AA2EB4AE200C889600B3A93E /* Resources */,
+				AA2EB4B2200C889600B3A93E /* [CP] Embed Pods Frameworks */,
+				AA2EB4B3200C889600B3A93E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CalabashDemo-cal";
+			productName = CalabashDemo;
+			productReference = AA2EB4B7200C889600B3A93E /* CalabashDemo-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,6 +253,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = AA2EB45A200C4B3300B3A93E;
 					};
+					AA2EB4A3200C889600B3A93E = {
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = AA2EB456200C4B3300B3A93E /* Build configuration list for PBXProject "CalabashDemo" */;
@@ -218,6 +273,7 @@
 			targets = (
 				AA2EB45A200C4B3300B3A93E /* CalabashDemo */,
 				AA2EB482200C7A6200B3A93E /* CalabashDemoTests */,
+				AA2EB4A3200C889600B3A93E /* CalabashDemo-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +293,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2EB4AE200C889600B3A93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2EB4AF200C889600B3A93E /* LaunchScreen.storyboard in Resources */,
+				AA2EB4B0200C889600B3A93E /* Assets.xcassets in Resources */,
+				AA2EB4B1200C889600B3A93E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +337,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalabashDemo/Pods-CalabashDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2EB4A4200C889600B3A93E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalabashDemo-cal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2EB4B2200C889600B3A93E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalabashDemo-cal/Pods-CalabashDemo-cal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2EB4B3200C889600B3A93E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalabashDemo-cal/Pods-CalabashDemo-cal-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EAEE7D293AB7DBAAB7A22F25 /* [CP] Check Pods Manifest.lock */ = {
@@ -312,6 +426,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2EB486200C7A6200B3A93E /* CalabashDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2EB4A5200C889600B3A93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2EB4A6200C889600B3A93E /* Foo.m in Sources */,
+				AA2EB4A7200C889600B3A93E /* UIColor+Random.m in Sources */,
+				AA2EB4A8200C889600B3A93E /* ViewController.m in Sources */,
+				AA2EB4A9200C889600B3A93E /* main.m in Sources */,
+				AA2EB4AA200C889600B3A93E /* AppDelegate.m in Sources */,
+				AA2EB4AB200C889600B3A93E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +648,48 @@
 			};
 			name = Release;
 		};
+		AA2EB4B5200C889600B3A93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F09A9D528CD55B7A0911E5 /* Pods-CalabashDemo-cal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHDZB47VKB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/iOS\"",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				INFOPLIST_FILE = "CalabashDemo/CalabashDemo-cal.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Futuredial.CalabashDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA2EB4B6200C889600B3A93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFF1194D1D74315C647D2A4 /* Pods-CalabashDemo-cal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHDZB47VKB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/iOS\"",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				INFOPLIST_FILE = "CalabashDemo/CalabashDemo-cal.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Futuredial.CalabashDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +716,15 @@
 			buildConfigurations = (
 				AA2EB48B200C7A6200B3A93E /* Debug */,
 				AA2EB48C200C7A6200B3A93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2EB4B4200C889600B3A93E /* Build configuration list for PBXNativeTarget "CalabashDemo-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2EB4B5200C889600B3A93E /* Debug */,
+				AA2EB4B6200C889600B3A93E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

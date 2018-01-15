@@ -7,27 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5ABD958A83D3FD01120B80F1A772440 /* Pods-CalabashDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 801C305EE4273363530A509CE23568B8 /* Pods-CalabashDemo-dummy.m */; };
+		92AA0C4F4E337A663DF4B979C9F8AB1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B5ABD958A83D3FD01120B80F1A772440 /* Pods-CalabashDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD838C7D669B74DEB38C7CA8341556D /* Pods-CalabashDemo-dummy.m */; };
+		B7607B82CFB5E43973936DD112B11AF0 /* Pods-CalabashDemo-cal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7821B93A709DE377096846A845E88A0F /* Pods-CalabashDemo-cal-dummy.m */; };
 		BEB46DBAD9DBEC301A20ECA999E3D8F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		275DEAAB07AB38756C25FF9F36046103 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
-		388CBEDEBF2895F9684FE59CBEFE4F0E /* Pods-CalabashDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalabashDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4D4215B2B1D6BAF8E17AC504A360B113 /* Pods-CalabashDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalabashDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		5351CBD2DE9358535B624F45830298EA /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		004F30F93A53CBBDD6FA16A75AEB07BF /* Pods-CalabashDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalabashDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		00C4168F279EB050A171F5801B9D9C82 /* LPHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPResponse.h; sourceTree = "<group>"; };
+		036B3B7E6E4FB9864619A273F6CD8151 /* Pods-CalabashDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalabashDemo-resources.sh"; sourceTree = "<group>"; };
+		0D76B66ABCD57215EF0E41EE627B1BC9 /* Pods-CalabashDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalabashDemo.release.xcconfig"; sourceTree = "<group>"; };
+		11BDB61F60FFD22487045555416973C5 /* Pods-CalabashDemo-cal-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalabashDemo-cal-resources.sh"; sourceTree = "<group>"; };
+		1665D72BBA4CD44E84F18151561A76FF /* LPRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRouter.h; path = calabash.framework/Versions/A/Headers/LPRouter.h; sourceTree = "<group>"; };
+		22D93629A006857CC5AF743B718E8614 /* LPHTTPDynamicFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPDynamicFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		2E6CCAFC827AEF8BFC4731469F19E904 /* Pods-CalabashDemo-cal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalabashDemo-cal.release.xcconfig"; sourceTree = "<group>"; };
+		400F1001B6A2BF99FC9A4433DEA5ACDB /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		40706E94B06485B64E9E3F22B9D679F8 /* CalabashServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalabashServer.h; path = calabash.framework/Versions/A/Headers/CalabashServer.h; sourceTree = "<group>"; };
+		598C7B5A9E9B240BC8B43D7F3228A432 /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		5C43D6A00262DAE8B965D44694465D5F /* LPHTTPDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPDataResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPDataResponse.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		801C305EE4273363530A509CE23568B8 /* Pods-CalabashDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalabashDemo-dummy.m"; sourceTree = "<group>"; };
-		889AAA91CE73E40461F0B4EE89DA5F50 /* Pods-CalabashDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalabashDemo-resources.sh"; sourceTree = "<group>"; };
+		683C10FE35280FF7804C9E80B830D9B6 /* Pods-CalabashDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalabashDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7798D040E0BD143E43474216C4A1847E /* Pods-CalabashDemo-cal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalabashDemo-cal.debug.xcconfig"; sourceTree = "<group>"; };
+		7821B93A709DE377096846A845E88A0F /* Pods-CalabashDemo-cal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalabashDemo-cal-dummy.m"; sourceTree = "<group>"; };
+		785CF3579C20174AC41C0FF6B5F413FB /* Pods-CalabashDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalabashDemo-frameworks.sh"; sourceTree = "<group>"; };
+		7988A7507E3AF8F83F0647D35DADAD0C /* LPHTTPFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPFileResponse.h; sourceTree = "<group>"; };
+		7A819FEB2B5096D23850F43556226AFB /* libPods-CalabashDemo-cal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CalabashDemo-cal.a"; path = "libPods-CalabashDemo-cal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		805338F474B29A6018878E623426650F /* LPRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRoute.h; path = calabash.framework/Versions/A/Headers/LPRoute.h; sourceTree = "<group>"; };
+		8A1E398AD74062CD585FA675B729BADA /* UIWebView+LPWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+LPWebView.h"; path = "calabash.framework/Versions/A/Headers/UIWebView+LPWebView.h"; sourceTree = "<group>"; };
+		8DD23F1F3A44DE29B1B59AD5A536007F /* LPWebQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebQuery.h; path = calabash.framework/Versions/A/Headers/LPWebQuery.h; sourceTree = "<group>"; };
+		920EB6BCD2E3939200215EC780CF5570 /* Pods-CalabashDemo-cal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalabashDemo-cal-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DB0D11D6EC9740EBA058214BC1A1E14 /* Pods-CalabashDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalabashDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AED15B7D98746B7E8644DE7EADEEFBA3 /* Pods-CalabashDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalabashDemo-frameworks.sh"; sourceTree = "<group>"; };
-		BD267D828AE1E034D07B6E89399D3E89 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
-		EF0A97DECF5D9ED8DBCADA3ADA80EF1D /* libPods-CalabashDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CalabashDemo.a"; path = "libPods-CalabashDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8C34DA94FD351E6A69162D9A6D05575 /* Pods-CalabashDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalabashDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9E5F477FC913CD26472C4DB6ED05D54A /* LPWebViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebViewProtocol.h; path = calabash.framework/Versions/A/Headers/LPWebViewProtocol.h; sourceTree = "<group>"; };
+		A52D0652757BB6F652AFA276E28A71B1 /* LPCORSResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPCORSResponse.h; path = calabash.framework/Versions/A/Headers/LPCORSResponse.h; sourceTree = "<group>"; };
+		AEE90F6F8B1F8035724F4C8BD0DBC20A /* libPods-CalabashDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CalabashDemo.a"; path = "libPods-CalabashDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF287A1FB26E525B0AE13559FCBB5487 /* LPVersionRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPVersionRoute.h; path = calabash.framework/Versions/A/Headers/LPVersionRoute.h; sourceTree = "<group>"; };
+		B16B447B8AEA609AE51EF2AC9CE0EAF8 /* Pods-CalabashDemo-cal-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalabashDemo-cal-frameworks.sh"; sourceTree = "<group>"; };
+		C122BF45587CBD140CADCE58658CF83C /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		CCE59E62F42524EF33D1DD0A9BC9CD0A /* LPHTTPAsyncFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHTTPAsyncFileResponse.h; path = calabash.framework/Versions/A/Headers/LPHTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		D074F0BB5861CC8384127D02ED78B1AD /* LPWebViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebViewUtils.h; path = calabash.framework/Versions/A/Headers/LPWebViewUtils.h; sourceTree = "<group>"; };
+		D50A87D3B1FD9860B651D719050DB4EB /* Pods-CalabashDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalabashDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DCEE24706E1C26407D23ED5C00CF696A /* Pods-CalabashDemo-cal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalabashDemo-cal-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDD838C7D669B74DEB38C7CA8341556D /* Pods-CalabashDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalabashDemo-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7EEB9DF1CF0F9308108B57B65938B7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AA0C4F4E337A663DF4B979C9F8AB1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FEB109C150BE71168D3540B787EF9328 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,55 +71,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F08D6AAC5F3212BEF9AE67BA27BB985 /* Pods */ = {
+		01A65E973A896B7B26D89EC1759F9B56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26382BECC33D3A0DB32AEEFB179E5805 /* AppCenter */,
+				AEE90F6F8B1F8035724F4C8BD0DBC20A /* libPods-CalabashDemo.a */,
+				7A819FEB2B5096D23850F43556226AFB /* libPods-CalabashDemo-cal.a */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		26382BECC33D3A0DB32AEEFB179E5805 /* AppCenter */ = {
+		29ED2E822A8A4C099755FCDFF584A3C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				532FCA275C043189A13FDDD5A9BDE415 /* Analytics */,
-				9EE13F7E6DB656EA069185A561AFA2DE /* Core */,
-				7887D30DE6098B8B49964BA5EDB1C9D5 /* Crashes */,
+				400F1001B6A2BF99FC9A4433DEA5ACDB /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4974DB7A726F41D1C52DF2792780740B /* Pods-CalabashDemo-cal */ = {
+			isa = PBXGroup;
+			children = (
+				920EB6BCD2E3939200215EC780CF5570 /* Pods-CalabashDemo-cal-acknowledgements.markdown */,
+				DCEE24706E1C26407D23ED5C00CF696A /* Pods-CalabashDemo-cal-acknowledgements.plist */,
+				7821B93A709DE377096846A845E88A0F /* Pods-CalabashDemo-cal-dummy.m */,
+				B16B447B8AEA609AE51EF2AC9CE0EAF8 /* Pods-CalabashDemo-cal-frameworks.sh */,
+				11BDB61F60FFD22487045555416973C5 /* Pods-CalabashDemo-cal-resources.sh */,
+				7798D040E0BD143E43474216C4A1847E /* Pods-CalabashDemo-cal.debug.xcconfig */,
+				2E6CCAFC827AEF8BFC4731469F19E904 /* Pods-CalabashDemo-cal.release.xcconfig */,
+			);
+			name = "Pods-CalabashDemo-cal";
+			path = "Target Support Files/Pods-CalabashDemo-cal";
+			sourceTree = "<group>";
+		};
+		4A3F7539838E4D3CB8AF39A9F65EDB99 /* Calabash */ = {
+			isa = PBXGroup;
+			children = (
+				40706E94B06485B64E9E3F22B9D679F8 /* CalabashServer.h */,
+				A52D0652757BB6F652AFA276E28A71B1 /* LPCORSResponse.h */,
+				CCE59E62F42524EF33D1DD0A9BC9CD0A /* LPHTTPAsyncFileResponse.h */,
+				5C43D6A00262DAE8B965D44694465D5F /* LPHTTPDataResponse.h */,
+				22D93629A006857CC5AF743B718E8614 /* LPHTTPDynamicFileResponse.h */,
+				7988A7507E3AF8F83F0647D35DADAD0C /* LPHTTPFileResponse.h */,
+				00C4168F279EB050A171F5801B9D9C82 /* LPHTTPResponse.h */,
+				805338F474B29A6018878E623426650F /* LPRoute.h */,
+				1665D72BBA4CD44E84F18151561A76FF /* LPRouter.h */,
+				AF287A1FB26E525B0AE13559FCBB5487 /* LPVersionRoute.h */,
+				8DD23F1F3A44DE29B1B59AD5A536007F /* LPWebQuery.h */,
+				9E5F477FC913CD26472C4DB6ED05D54A /* LPWebViewProtocol.h */,
+				D074F0BB5861CC8384127D02ED78B1AD /* LPWebViewUtils.h */,
+				8A1E398AD74062CD585FA675B729BADA /* UIWebView+LPWebView.h */,
+			);
+			name = Calabash;
+			path = Calabash;
+			sourceTree = "<group>";
+		};
+		51795882C6D0172FF3DD5D2BF935226E /* Pods-CalabashDemo */ = {
+			isa = PBXGroup;
+			children = (
+				683C10FE35280FF7804C9E80B830D9B6 /* Pods-CalabashDemo-acknowledgements.markdown */,
+				004F30F93A53CBBDD6FA16A75AEB07BF /* Pods-CalabashDemo-acknowledgements.plist */,
+				FDD838C7D669B74DEB38C7CA8341556D /* Pods-CalabashDemo-dummy.m */,
+				785CF3579C20174AC41C0FF6B5F413FB /* Pods-CalabashDemo-frameworks.sh */,
+				036B3B7E6E4FB9864619A273F6CD8151 /* Pods-CalabashDemo-resources.sh */,
+				D50A87D3B1FD9860B651D719050DB4EB /* Pods-CalabashDemo.debug.xcconfig */,
+				0D76B66ABCD57215EF0E41EE627B1BC9 /* Pods-CalabashDemo.release.xcconfig */,
+			);
+			name = "Pods-CalabashDemo";
+			path = "Target Support Files/Pods-CalabashDemo";
+			sourceTree = "<group>";
+		};
+		5E746D4A7206AA0719CADECB4D1BB2ED /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				7A6177E6CA074D7472280488F33E249E /* Analytics */,
+				B659E0C0485C85F70668A2F49E8B3D1E /* Core */,
+				DFCD9C488BBE34D39372445EFB9D4033 /* Crashes */,
 			);
 			name = AppCenter;
 			path = AppCenter;
 			sourceTree = "<group>";
 		};
-		532FCA275C043189A13FDDD5A9BDE415 /* Analytics */ = {
+		6564101FA3BE2B0FC1523FAF5D6FE794 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A4258E8EA78F9E8E72A5B6E20E8F43D6 /* Frameworks */,
-			);
-			name = Analytics;
-			sourceTree = "<group>";
-		};
-		57B0E83E21907C6E8FDDD5D27F79BEAF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BE941D5002F238DF10A3D381C60BF5CA /* Pods-CalabashDemo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		66122652B1024E946ECEA52DFABA11A7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BD267D828AE1E034D07B6E89399D3E89 /* AppCenterCrashes.framework */,
+				598C7B5A9E9B240BC8B43D7F3228A432 /* AppCenterAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7887D30DE6098B8B49964BA5EDB1C9D5 /* Crashes */ = {
+		7A6177E6CA074D7472280488F33E249E /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				66122652B1024E946ECEA52DFABA11A7 /* Frameworks */,
+				6564101FA3BE2B0FC1523FAF5D6FE794 /* Frameworks */,
 			);
-			name = Crashes;
+			name = Analytics;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -95,26 +172,18 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0F08D6AAC5F3212BEF9AE67BA27BB985 /* Pods */,
-				FC2371A13D4F6DCF846A8F45FDC51A01 /* Products */,
-				57B0E83E21907C6E8FDDD5D27F79BEAF /* Targets Support Files */,
+				C4043BEC90B3C96C4A81A53DE8B320F9 /* Pods */,
+				01A65E973A896B7B26D89EC1759F9B56 /* Products */,
+				C3114F40800AB6F4AED210FB76BD09DF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9EE13F7E6DB656EA069185A561AFA2DE /* Core */ = {
+		B659E0C0485C85F70668A2F49E8B3D1E /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E39FB8A4CA783BA2FB45AFE8CCE436C4 /* Frameworks */,
+				F803CFBDDDF82439D4908695F23D387C /* Frameworks */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		A4258E8EA78F9E8E72A5B6E20E8F43D6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5351CBD2DE9358535B624F45830298EA /* AppCenterAnalytics.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -125,19 +194,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE941D5002F238DF10A3D381C60BF5CA /* Pods-CalabashDemo */ = {
+		C3114F40800AB6F4AED210FB76BD09DF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9DB0D11D6EC9740EBA058214BC1A1E14 /* Pods-CalabashDemo-acknowledgements.markdown */,
-				4D4215B2B1D6BAF8E17AC504A360B113 /* Pods-CalabashDemo-acknowledgements.plist */,
-				801C305EE4273363530A509CE23568B8 /* Pods-CalabashDemo-dummy.m */,
-				AED15B7D98746B7E8644DE7EADEEFBA3 /* Pods-CalabashDemo-frameworks.sh */,
-				889AAA91CE73E40461F0B4EE89DA5F50 /* Pods-CalabashDemo-resources.sh */,
-				388CBEDEBF2895F9684FE59CBEFE4F0E /* Pods-CalabashDemo.debug.xcconfig */,
-				F8C34DA94FD351E6A69162D9A6D05575 /* Pods-CalabashDemo.release.xcconfig */,
+				51795882C6D0172FF3DD5D2BF935226E /* Pods-CalabashDemo */,
+				4974DB7A726F41D1C52DF2792780740B /* Pods-CalabashDemo-cal */,
 			);
-			name = "Pods-CalabashDemo";
-			path = "Target Support Files/Pods-CalabashDemo";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4043BEC90B3C96C4A81A53DE8B320F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E746D4A7206AA0719CADECB4D1BB2ED /* AppCenter */,
+				4A3F7539838E4D3CB8AF39A9F65EDB99 /* Calabash */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -148,25 +220,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E39FB8A4CA783BA2FB45AFE8CCE436C4 /* Frameworks */ = {
+		DFCD9C488BBE34D39372445EFB9D4033 /* Crashes */ = {
 			isa = PBXGroup;
 			children = (
-				275DEAAB07AB38756C25FF9F36046103 /* AppCenter.framework */,
+				29ED2E822A8A4C099755FCDFF584A3C7 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = Crashes;
 			sourceTree = "<group>";
 		};
-		FC2371A13D4F6DCF846A8F45FDC51A01 /* Products */ = {
+		F803CFBDDDF82439D4908695F23D387C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF0A97DECF5D9ED8DBCADA3ADA80EF1D /* libPods-CalabashDemo.a */,
+				C122BF45587CBD140CADCE58658CF83C /* AppCenter.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		95CCE62CCEB833359B5000A9C9B7D914 /* Pods-CalabashDemo-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A45728B949FCC92999A4FB0E4D318DD /* Build configuration list for PBXNativeTarget "Pods-CalabashDemo-cal" */;
+			buildPhases = (
+				C6925336F0DDCF577EFB6E435F91CE9A /* Sources */,
+				7EEB9DF1CF0F9308108B57B65938B7A3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CalabashDemo-cal";
+			productName = "Pods-CalabashDemo-cal";
+			productReference = 7A819FEB2B5096D23850F43556226AFB /* libPods-CalabashDemo-cal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		A230261573335F209A623F26D2AA2CA4 /* Pods-CalabashDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB881B2EDCF345B5A50F9A68117D8F26 /* Build configuration list for PBXNativeTarget "Pods-CalabashDemo" */;
@@ -180,7 +268,7 @@
 			);
 			name = "Pods-CalabashDemo";
 			productName = "Pods-CalabashDemo";
-			productReference = EF0A97DECF5D9ED8DBCADA3ADA80EF1D /* libPods-CalabashDemo.a */;
+			productReference = AEE90F6F8B1F8035724F4C8BD0DBC20A /* libPods-CalabashDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -200,11 +288,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FC2371A13D4F6DCF846A8F45FDC51A01 /* Products */;
+			productRefGroup = 01A65E973A896B7B26D89EC1759F9B56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A230261573335F209A623F26D2AA2CA4 /* Pods-CalabashDemo */,
+				95CCE62CCEB833359B5000A9C9B7D914 /* Pods-CalabashDemo-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -218,12 +307,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6925336F0DDCF577EFB6E435F91CE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7607B82CFB5E43973936DD112B11AF0 /* Pods-CalabashDemo-cal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		4C15E9680CE6C01C69E6B0715A6F8776 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 388CBEDEBF2895F9684FE59CBEFE4F0E /* Pods-CalabashDemo.debug.xcconfig */;
+			baseConfigurationReference = D50A87D3B1FD9860B651D719050DB4EB /* Pods-CalabashDemo.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -241,9 +338,30 @@
 			};
 			name = Debug;
 		};
+		5ADCDBAC8799B83D2906CE911AC10EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6CCAFC827AEF8BFC4731469F19E904 /* Pods-CalabashDemo-cal.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		6EE04F7E1501B64DCA44CE6423D772AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8C34DA94FD351E6A69162D9A6D05575 /* Pods-CalabashDemo.release.xcconfig */;
+			baseConfigurationReference = 0D76B66ABCD57215EF0E41EE627B1BC9 /* Pods-CalabashDemo.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -317,6 +435,26 @@
 			};
 			name = Release;
 		};
+		A8626CB68E9CF6840A6A91F4DF29A1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7798D040E0BD143E43474216C4A1847E /* Pods-CalabashDemo-cal.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -385,6 +523,15 @@
 			buildConfigurations = (
 				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
 				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A45728B949FCC92999A4FB0E4D318DD /* Build configuration list for PBXNativeTarget "Pods-CalabashDemo-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8626CB68E9CF6840A6A91F4DF29A1C0 /* Debug */,
+				5ADCDBAC8799B83D2906CE911AC10EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
