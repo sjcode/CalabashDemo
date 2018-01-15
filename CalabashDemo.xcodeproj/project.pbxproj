@@ -13,6 +13,8 @@
 		AA2EB468200C4B3300B3A93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2EB467200C4B3300B3A93E /* Assets.xcassets */; };
 		AA2EB46B200C4B3300B3A93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2EB469200C4B3300B3A93E /* LaunchScreen.storyboard */; };
 		AA2EB46E200C4B3400B3A93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB46D200C4B3400B3A93E /* main.m */; };
+		AA2EB476200C4D7700B3A93E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB475200C4D7700B3A93E /* DetailViewController.m */; };
+		AA2EB479200C4FAD00B3A93E /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2EB478200C4FAD00B3A93E /* UIColor+Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AA2EB46A200C4B3300B3A93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA2EB46C200C4B3400B3A93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA2EB46D200C4B3400B3A93E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA2EB474200C4D7700B3A93E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AA2EB475200C4D7700B3A93E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AA2EB477200C4FAD00B3A93E /* UIColor+Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		AA2EB478200C4FAD00B3A93E /* UIColor+Random.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				AA2EB469200C4B3300B3A93E /* LaunchScreen.storyboard */,
 				AA2EB46C200C4B3400B3A93E /* Info.plist */,
 				AA2EB46D200C4B3400B3A93E /* main.m */,
+				AA2EB474200C4D7700B3A93E /* DetailViewController.h */,
+				AA2EB475200C4D7700B3A93E /* DetailViewController.m */,
+				AA2EB477200C4FAD00B3A93E /* UIColor+Random.h */,
+				AA2EB478200C4FAD00B3A93E /* UIColor+Random.m */,
 			);
 			path = CalabashDemo;
 			sourceTree = "<group>";
@@ -142,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2EB479200C4FAD00B3A93E /* UIColor+Random.m in Sources */,
 				AA2EB463200C4B3300B3A93E /* ViewController.m in Sources */,
 				AA2EB46E200C4B3400B3A93E /* main.m in Sources */,
 				AA2EB460200C4B3300B3A93E /* AppDelegate.m in Sources */,
+				AA2EB476200C4D7700B3A93E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZHDZB47VKB;
 				INFOPLIST_FILE = CalabashDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Futuredial.CalabashDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZHDZB47VKB;
 				INFOPLIST_FILE = CalabashDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Futuredial.CalabashDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
